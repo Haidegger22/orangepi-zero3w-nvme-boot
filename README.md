@@ -14,7 +14,7 @@
 | NVMe #1 | WD Black SN750 1TB (WDS100T3X0C) — эталонная система |
 | NVMe #2 | Silicon Power 256GB (SPCC M.2 PCIe SSD) — клон для тестов |
 | microSD | Samsung 64GB EVO Plus A1 (ext4, label `opi_root`) |
-| Питание | Type-C 5V/3A (левый порт) |
+| Питание | Type-C 5V/3A (крайний порт) |
 
 ## Схема подключения
 
