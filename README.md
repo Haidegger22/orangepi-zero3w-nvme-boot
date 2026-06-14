@@ -13,7 +13,7 @@
 | Адаптер | JMicron JMS583 (VID:PID 152d:0583, Gen 2 to PCIe Gen3x2 Bridge) |
 | NVMe #1 | WD Black SN750 1TB (WDS100T3X0C) — эталонная система |
 | NVMe #2 | Silicon Power 256GB (SPCC M.2 PCIe SSD) — клон для тестов |
-| microSD | SanDisk Ultra 64GB (ext4, label `opi_root`) |
+| microSD | Samsung 64GB EVO Plus A1 (ext4, label `opi_root`) |
 | Питание | Type-C 5V/3A (левый порт) |
 
 ## Схема подключения
@@ -96,7 +96,7 @@ sudo umount /mnt/source /mnt/target
 | Носитель | Чтение | Запись |
 |----------|--------|--------|
 | Silicon Power 256GB + JMS583 | **661 MB/s** | 1.3 GB/s (SLC-кэш) |
-| SD-карта SanDisk Ultra 64GB | 68.8 MB/s | 28.5 MB/s |
+| SD-карта Samsung 64GB EVO Plus A1 | 68.8 MB/s | 28.5 MB/s |
 
 NVMe через JMS583 в 10 раз быстрее SD по чтению и в 45 раз по записи.
 
